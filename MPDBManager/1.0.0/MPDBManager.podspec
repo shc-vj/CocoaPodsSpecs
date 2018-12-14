@@ -10,10 +10,11 @@ Pod::Spec.new do |spec|
     spec.authors             = 'Paweł Czernikowski'
     spec.requires_arc       = 'MPDBManager.m'
     spec.platforms          = {
-        :ios => '6.0',
+        :ios => '8.0',
         :osx => '10.8'
     }
     spec.source_files       = 'src'
+    spec.swift_version = '4.0'
 
     spec.user_target_xcconfig = {
         'CLANG_ENABLE_MODULES'                                  => 'YES',
